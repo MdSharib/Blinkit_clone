@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+:root{
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --green-color: rgb(12, 131, 31);
+    --light-green-color: rgb(73 158 86);
+    --font-grey-color:  rgb(115, 115, 115);
+    --fw-100: 100;
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-700: 700;
+    --fw-900: 900;
+}
