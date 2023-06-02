@@ -344,9 +344,6 @@ footer{
         display: flex;
         justify-content: space-evenly;
     }
-    .header-resp-mob{
-        display: none;
-    }
   }
   
   /* xl */
@@ -511,7 +508,8 @@ footer{
         display: none;
     }
     .main-section{
-        top: 6px;  
+        top: 148px;
+        margin-left: 12px  
     }
 
     .header-resp{
@@ -519,19 +517,26 @@ footer{
     }
     .header-resp-mob{
         display: flex;
-        margin: 9px 0px;
+        margin: 0px 0px;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+        height: 130px;
+        border-bottom: 1px solid rgb(238, 238, 238);
+        background-color: var(--white-color);
     }
     .location-delhi {
         margin-bottom: 10px;
     }
     .location{
-        margin: 10px 0px;
+        margin: 10px -55px;
     }
     .search-input input {
-        width: 475px;
+        width: 348px;
     }
     .search{
-        width: 475px;
+        width: 385px;
+        margin-left: 7px;
     }
     .footer-sec{
         width: 160%;
@@ -539,7 +544,23 @@ footer{
     .inner-main-section {
         width: 475px;
     }
+
+    .section-4-description .section-4-description-div {
+        width: 20%;
+    }
+    .section-4 .section-4-title {
+        margin-left: 12px;
+    }
+    .section-4-description {
+        margin-left: 12px;
+    }
+    .section-3-categories {
+        grid-template-columns: repeat(5, 17%);
+    }
   }
+
+
+
   @media (max-width: 375px) and (min-width: 320px){
     .container {
         /* width: 150%; */
@@ -552,7 +573,8 @@ footer{
         display: none;
     }
     .main-section{
-        top: 6px;  
+        top: 148px;
+        margin-left: 12px  
     }
 
     .header-resp{
@@ -561,24 +583,44 @@ footer{
     .header-resp-mob{
         display: flex;
         margin: 9px 0px;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+        height: 130px;
+        border-bottom: 1px solid rgb(238, 238, 238);
+        background-color: var(--white-color);
     }
     .location-delhi {
         margin-bottom: 10px;
     }
     .location{
-        margin: 10px 0px;
+        margin: 10px -55px;
     }
     .search-input input {
-        width: 375px;
+        width: 348px;
     }
     .search{
-        width: 375px;
+        width: 385px;
+        margin-left: 7px;
     }
     .footer-sec{
         width: 160%;
     }
     .inner-main-section {
-        width: 375px;
+        width: 475px;
+    }
+
+    .section-4-description .section-4-description-div {
+        width: 20%;
+    }
+    .section-4 .section-4-title {
+        margin-left: 12px;
+    }
+    .section-4-description {
+        margin-left: 12px;
+    }
+    .section-3-categories {
+        grid-template-columns: repeat(5, 17%);
     }
   }
 
@@ -597,7 +639,8 @@ footer{
         display: none;
     }
     .main-section{
-        top: 6px;  
+        top: 148px;
+        margin-left: 12px  
     }
 
     .header-resp{
@@ -605,28 +648,45 @@ footer{
     }
     .header-resp-mob{
         display: flex;
-        margin: 9px 0px;
+        margin: 0px 0px;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+        height: 130px;
+        border-bottom: 1px solid rgb(238, 238, 238);
+        background-color: var(--white-color);
     }
     .location-delhi {
         margin-bottom: 10px;
     }
     .location{
-        margin: 10px 0px;
+        margin: 10px -55px;
     }
     .search-input input {
-        width: 320px;
+        width: 220px;
     }
     .search{
-        width: 320px;
+        width: 220px;
+        margin-left: 7px;
     }
     .footer-sec{
         width: 160%;
     }
     .inner-main-section {
-        width: 320px;
+        width: 475px;
     }
-    .footer-sec{
-        width: 160%;
+
+    .section-4-description .section-4-description-div {
+        width: 20%;
+    }
+    .section-4 .section-4-title {
+        margin-left: 12px;
+    }
+    .section-4-description {
+        margin-left: 12px;
+    }
+    .section-3-categories {
+        grid-template-columns: repeat(5, 17%);
     }
   }
 
